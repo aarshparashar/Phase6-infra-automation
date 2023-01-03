@@ -1,6 +1,6 @@
-# Three-Tier Web Application Deployment - MERN Stack WA
+## Three-Tier Web Application Deployment - MERN Stack WA
 
-Automation
+# Automation
 Deploy the infra using Terraform modules from official AWS Github repositories here https://github.com/terraform-aws-modules. 
 Resources to be created using these terraform modules
 VPC
@@ -18,12 +18,14 @@ Configure AWS Auto Scaling Based on both CPU and Memory Utilization https://aws.
 use spot allocation strategy in ASG
 End-to-end TLS encryption with ALB and nginx/apache. Since ALB has strict name checking disabled by default, we can use any self signed certificate in the webserver config
 Frontend deployment using AWS Amplify
-CI/CD
+
+# CI/CD
 Using .env files in above repositories
 Getting env values from aws secrets-manager and creating .env file using template
 Pass value of backend endpoint as environment variable in Amplify and use it inside amplify.yaml.
 pipeline notifications on slack 
-Observability
+
+# Observability
 Setup monitoring of Network, Servers, ASGs , ALB and Database. Configure alerts to slack
 Setup Retention policies for log groups ,metric filter and notification using SNS
 Ship logs of pm2 services to cloudwatch logs
