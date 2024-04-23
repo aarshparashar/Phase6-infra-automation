@@ -1,4 +1,4 @@
-# Improved README for Three-Tier Web Application Deployment - MERN Stack WA
+# Three-Tier Web Application Deployment - MERN Stack WA
 
 This document outlines the deployment and configuration of a three-tier web application using the MERN (MongoDB, Express, React, Node.js) stack within an AWS environment. The deployment leverages various tools and services to automate infrastructure provisioning, application deployment, and ongoing operations.
 
